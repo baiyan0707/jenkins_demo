@@ -8,7 +8,7 @@ COPY ./target/*.jar /tmp
 
 RUN cp -f ./tmp/*.jar /app.jar
 
-EXPOSE 8080
+EXPOSE 10241
 
 CMD echo "The application is starting..." && \
     java -Xmx${JVM_MEMORY} -jar /app.jar
