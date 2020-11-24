@@ -1,2 +1,4 @@
 server:
   port: 10241
+  servlet:
+    application-display-name: jenkins
